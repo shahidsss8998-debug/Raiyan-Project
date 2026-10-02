@@ -36,9 +36,7 @@ export default function Checkout() {
       itemsText += `\n💰 *Price:* ₹${item.price * item.quantity}`;
     });
 
-    const websiteUrl = window.location.origin;
-    const message = `${websiteUrl}\n\n` +
-      `🛍️ *NEW ORDER — PERFUME SHOWCASE*\n` +
+    const message = `🛍️ *NEW ORDER — PERFUME SHOWCASE*\n` +
       `──────────────────────────────\n\n` +
       `📋 *CUSTOMER DETAILS:*\n` +
       `👤 *Name:* ${formData.name}\n` +
